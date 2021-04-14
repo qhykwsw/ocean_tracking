@@ -27,7 +27,7 @@ def create_dataset(data, data_path, wind_path, current_path, nearest_circle, kin
             data.loc[i, 'u_{}'.format(j)] = current_list[2*k]
             data.loc[i, 'v_{}'.format(j)] = current_list[2*k+1]
 
-    data.iloc[start:end].to_csv(os.path.join(data_path, 'train_{}.csv'.format(start//5)), index=False)
+    data.iloc[start:end].to_csv(os.path.join(data_path, 'train_{}.csv'.format(start//5169)), index=False)
 
 
 
