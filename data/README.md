@@ -1,10 +1,15 @@
 ## 运行版本
 
 python version: 3.7.3
+
 numpy version: 1.19.5
+
 pandas version: 1.2.2
+
 lightgbm version: 3.1.1
+
 scipy version: 1.6.1
+
 netCDF4 version: 1.5.6
 
 ## 算法方案
